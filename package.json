@@ -1,0 +1,21 @@
+{
+  "name": "calc-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch -t node ./src/index.ts",
+    "build": "parcel build -t node ./src/index.ts",
+    "dev": "node ./dist/index.js",
+    "start": "npm run build && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-elm-compiler": "^5.0.5",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.2"
+  }
+}
